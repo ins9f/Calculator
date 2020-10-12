@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Write your comments here -->
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalculator</title>
+</head>
+<body>
+    <!-- Everything centered -->
+    <div class="center-container">
+        <div class="textbox">
+            <input type="text" name="CalculationBox" id="CalculationBox" value="0" class="CalculationBox" disabled>
+            <input type="text" name="OutputBox" id="OutputBox" value="0" class="OutputBox" disabled>
+        </div>
+        <div class="row">
+            <button id="%" class="btn op">%</button>
+            <button id="CE" class="btn uniq">CE</button>
+            <button id="C" class="btn uniq">C</button>
+            <button id="<<" class="btn uniq"><<</button>
+        </div>
+        <div class="row">
+            <button id="1/x" class="btn semi-op">1/x</button>
+            <button id="sq(x)" class="btn semi-op">sq(x)</button>
+            <button id="sqrt(x)" class="btn semi-op">sqrt(x)</button>
+            <button id="/" class="btn op">/</button>
+        </div>
+        <div class="row">
+            <button id="7" class="btn btn-num">7</button>
+            <button id="8" class="btn btn-num">8</button>
+            <button id="9" class="btn btn-num">9</button>
+            <button id="*" class="btn op">X</button>
+        </div>
+        <div class="row">
+            <button id="4" class="btn btn-num">4</button>
+            <button id="5" class="btn btn-num">5</button>
+            <button id="6" class="btn btn-num">6</button>
+            <button id="-" class="btn op">-</button>
+        </div>
+        <div class="row">
+            <button id="1" class="btn btn-num">1</button>
+            <button id="2" class="btn btn-num">2</button>
+            <button id="3" class="btn btn-num">3</button>
+            <button id="+" class="btn op">+</button>
+        </div>
+        <div class="row">
+            <button id="+/-" class="btn uniq">+/-</button>
+            <button id="0" class="btn btn-num">0</button>
+            <button id="." class="btn uniq">.</button>
+            <button id="=" class="btn eq">=</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
